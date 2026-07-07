@@ -80,7 +80,7 @@ a { color: var(--petrol); }
 .btn:hover { background: var(--accent-dark); }
 .btn-outline { background: transparent; color: var(--navy) !important; border: 2px solid var(--navy); }
 .btn-outline:hover { background: var(--navy); color: #fff !important; }
-.btn-lg { padding: 15px 30px; font-size: 1.05rem; }
+.btn-lg { padding: 15px 30px; font-size: 1.05rem; margin-bottom:12px;}
 .btn-sm { padding: 9px 18px; font-size: .88rem; white-space: nowrap; }
 
 .nav-toggle { display: none; background: none; border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; font-size: 1.2rem; cursor: pointer; color: var(--navy); }
@@ -214,7 +214,7 @@ blockquote.pull footer { font-style: normal; font-size: .9rem; color: var(--text
 .cta-band p { max-width: 60ch; margin: 0 auto 26px; color: var(--accent-on-dark); }
 .cta-band .btn { background: #fff; color: var(--navy) !important; }
 .cta-band .btn:hover { background: var(--bg-soft); }
-.cta-meta { margin-top: 18px; font-size: .95rem; color: var(--accent-on-dark); }
+.cta-meta { margin-top: 16px; font-size: .95rem; color: var(--accent-on-dark); }
 .cta-meta a { color: #fff; }
 
 /* Contact */
