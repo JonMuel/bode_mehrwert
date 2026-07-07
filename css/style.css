@@ -216,6 +216,10 @@ blockquote.pull footer { font-style: normal; font-size: .9rem; color: var(--text
 .cta-band .btn:hover { background: var(--bg-soft); }
 .cta-meta { margin-top: 16px; font-size: .95rem; color: var(--accent-on-dark); }
 .cta-meta a { color: #fff; }
+.direct-contact { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 20px; }
+.direct-contact a { color: var(--navy); text-decoration: none; }
+.direct-contact a:hover { color: var(--accent); text-decoration: underline; }
+.contact-button { margin-top: 14px; }
 
 /* Contact */
 .contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 48px; align-items: start; }
