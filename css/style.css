@@ -254,6 +254,8 @@ form .check input { margin-top: 4px; }
 /* Responsive */
 @media (max-width: 920px) {
   .hero-grid, .two-col, .contact-grid { grid-template-columns: 1fr; }
+  .contact-form { order: 1; }
+  .contact-info { order: 2; }
   .nav-toggle { display: block; }
   .main-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; border-bottom: 1px solid var(--border); box-shadow: var(--shadow); }
   .main-nav.open { display: block; }
